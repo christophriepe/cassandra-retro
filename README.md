@@ -6,7 +6,7 @@
 - OPS
 
 ### Years
-| ID   | asdf |
+| ID   | Year |
 | :--- | :--- |
 | 0    | 2014 |
 | 1    | 2015 |
@@ -19,11 +19,13 @@
 
 
 ### Systems
-- [0] Esophagus
-- [1] Stomach
-- [2] Intestine
-- [3] Liver
-- [4] Pancreas
+| ID   | System    |
+| :--- | :---      |
+| 0    | Esophagus |
+| 1    | Stomach   |
+| 2    | Intestine |
+| 3    | Liver     |
+| 4    | Pancreas  |
 
 ### OPS (Operationen- und Prozedurenschlüssel)
 | OPS   | System | Description                                                                   |

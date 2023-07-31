@@ -20,7 +20,11 @@
 | 5-425 | 0      | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität                |
 | 5-426 | 0      | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität                 |
 | 5-427 | 0      | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)              |
-| :---- | :----- | :---------------------------------------------------------------------------- |
 | 5-434 | 1      | Atypische partielle Magenresektion                                            |
+| 5-435 | 1      | Partielle Magenresektion (2/3-Resektion)                                      |
+| 5-436 | 1      | Subtotale Magenresektion (4/5-Resektion)                                      |
+| 5-437 | 1      | (Totale) Gastrektomie                                                         |
+| 5-438 | 1      | (Totale) Gastrektomie mit Ösophagusresektion                                  |
+| 5-454 | 2      | Resektion des Dünndarmes                                                      |
 
 

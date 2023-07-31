@@ -13,6 +13,13 @@
 - [4] Pancreas
 
 ### OPS (Operationen- und Prozedurenschlüssel)
+| OPS   | System | Description                                                                   |
+| ------| ------ |------------------------------------------------------------------------------ |
+| 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität           |
+| 5-424 | 0      | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität            |
+
+
+
 
 OPS | System | Description
 --- | --- | ---

@@ -29,22 +29,36 @@ All cases in which the index surgery was performed on one of the following five 
 | 3    | Liver     |
 | 4    | Pancreas  |
 
-### OPS (Operationen- und Prozedurenschlüssel)
-| ID   | OPS   | System | Description                                                                   |
-| :--- | :---- | :----- | :---------------------------------------------------------------------------- |
-| 0    | 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität           |
-| 1    | 5-424 | 0      | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität            |
-| 2    | 5-425 | 0      | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität                |
-| 3    | 5-426 | 0      | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität                 |
-| 4    | 5-427 | 0      | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)              |
-| 5    | 5-434 | 1      | Atypische partielle Magenresektion                                            |
-| 6    | 5-435 | 1      | Partielle Magenresektion (2/3-Resektion)                                      |
-| 7    | 5-436 | 1      | Subtotale Magenresektion (4/5-Resektion)                                      |
-| 8    | 5-437 | 1      | (Totale) Gastrektomie                                                         |
-| 9    | 5-438 | 1      | (Totale) Gastrektomie mit Ösophagusresektion                                  |
-| 10   | 5-454 | 2      | Resektion des Dünndarmes                                                      |
-| 11   | 5-455 | 2      | Partielle Resektion des Dickdarmes                                            |
-| 12   | 5-456 | 2      | (Totale) Kolektomie und Proktokolektomie                                      |
-| 13   | 5-465 | 2      | Rückverlagerung eines doppelläufigen Enterostomas                             |
+### OPS
+All cases in which the index surgery was defined by one of the following OPS were included.
+| ID   | OPS   | System | Description                                                                                |
+| :--- | :---- | :----- | :----------------------------------------------------------------------------------------- |
+| 0    | 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität                        |
+| 1    | 5-424 | 0      | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität                         |
+| 2    | 5-425 | 0      | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität                             |
+| 3    | 5-426 | 0      | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität                              |
+| 4    | 5-427 | 0      | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)                           |
+| 5    | 5-434 | 1      | Atypische partielle Magenresektion                                                         |
+| 6    | 5-435 | 1      | Partielle Magenresektion (2/3-Resektion)                                                   |
+| 7    | 5-436 | 1      | Subtotale Magenresektion (4/5-Resektion)                                                   |
+| 8    | 5-437 | 1      | (Totale) Gastrektomie                                                                      |
+| 9    | 5-438 | 1      | (Totale) Gastrektomie mit Ösophagusresektion                                               |
+| 10   | 5-454 | 2      | Resektion des Dünndarmes                                                                   |
+| 11   | 5-455 | 2      | Partielle Resektion des Dickdarmes                                                         |
+| 12   | 5-456 | 2      | (Totale) Kolektomie und Proktokolektomie                                                   |
+| 13   | 5-465 | 2      | Rückverlagerung eines doppelläufigen Enterostomas                                          |
+| 14   | 5-466 | 2      | Wiederherstellung der Kontinuität des Darmes bei endständigen Enterostomata                |
+| 15   | 5-484 | 2      | Rektumresektion unter Sphinktererhaltung                                                   |
+| 16   | 5-485 | 2      | Rektumresektion ohne Sphinktererhaltung                                                    |
+| 17   | 5-501 | 3      | Lokale Exzision und Destruktion von erkranktem Gewebe der Leber (atypische Leberresektion) |
+| 18   | 5-502 | 3      | Anatomische (typische) Leberresektion                                                      |
+| 19   | 5-524 | 4      | Partielle Resektion des Pankreas                                                           |
+| 20   | 5-525 | 4      | (Totale) Pankreatektomie                                                                   |
+
+
+
+
+
+
 
 

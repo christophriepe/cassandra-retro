@@ -6,6 +6,7 @@
 - OPS
 
 ### Years
+All cases in which the index surgery was performed in one of the following eight years were included. 
 | ID   | Year |
 | :--- | :--- |
 | 0    | 2014 |
@@ -19,6 +20,7 @@
 
 
 ### Systems
+All cases in which the index surgery was performed on one of the following five organ systems were included.
 | ID   | System    |
 | :--- | :---      |
 | 0    | Esophagus |

@@ -12,7 +12,8 @@
 - [3] Liver
 - [4] Pancreas
 
-### OPS
+### OPS (Operationen- und Prozedurenschlüssel)
+
 OPS | System | Description
 --- | --- | ---
 5-423 | 0 | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität

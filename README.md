@@ -30,18 +30,21 @@ All cases in which the index surgery was performed on one of the following five 
 | 4    | Pancreas  |
 
 ### OPS (Operationen- und Prozedurenschlüssel)
-| OPS   | System | Description                                                                   |
-| :---- | :----- | :---------------------------------------------------------------------------- |
-| 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität           |
-| 5-424 | 0      | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität            |
-| 5-425 | 0      | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität                |
-| 5-426 | 0      | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität                 |
-| 5-427 | 0      | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)              |
-| 5-434 | 1      | Atypische partielle Magenresektion                                            |
-| 5-435 | 1      | Partielle Magenresektion (2/3-Resektion)                                      |
-| 5-436 | 1      | Subtotale Magenresektion (4/5-Resektion)                                      |
-| 5-437 | 1      | (Totale) Gastrektomie                                                         |
-| 5-438 | 1      | (Totale) Gastrektomie mit Ösophagusresektion                                  |
-| 5-454 | 2      | Resektion des Dünndarmes                                                      |
+| ID   | OPS   | System | Description                                                                   |
+| :--- | :---- | :----- | :---------------------------------------------------------------------------- |
+| 0    | 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität           |
+| 1    | 5-424 | 0      | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität            |
+| 2    | 5-425 | 0      | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität                |
+| 3    | 5-426 | 0      | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität                 |
+| 4    | 5-427 | 0      | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)              |
+| 5    | 5-434 | 1      | Atypische partielle Magenresektion                                            |
+| 6    | 5-435 | 1      | Partielle Magenresektion (2/3-Resektion)                                      |
+| 7    | 5-436 | 1      | Subtotale Magenresektion (4/5-Resektion)                                      |
+| 8    | 5-437 | 1      | (Totale) Gastrektomie                                                         |
+| 9    | 5-438 | 1      | (Totale) Gastrektomie mit Ösophagusresektion                                  |
+| 10   | 5-454 | 2      | Resektion des Dünndarmes                                                      |
+| 11   | 5-455 | 2      | Partielle Resektion des Dickdarmes                                            |
+| 12   | 5-456 | 2      | (Totale) Kolektomie und Proktokolektomie                                      |
+| 13   | 5-465 | 2      | Rückverlagerung eines doppelläufigen Enterostomas                             |
 
 

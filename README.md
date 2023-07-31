@@ -16,9 +16,13 @@
 OPS | System | Description
 --- | --- | ---
 5-423 | 0 | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität
+--- | --- | ---
 5-424 | 0 | Partielle Ösophagusresektion mit Wiederherstellung der Kontinuität
+--- | --- | ---
 5-425 | 0 | (Totale) Ösophagektomie ohne Wiederherstellung der Kontinuität
+--- | --- | ---
 5-426 | 0 | (Totale) Ösophagektomie mit Wiederherstellung der Kontinuität
+--- | --- | ---
 5-427 | 0 | Rekonstruktion der Ösophaguspassage (als selbständiger Eingriff)
 --- | --- | ---
 5-434 | 1 | Atypische partielle Magenresektion

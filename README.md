@@ -5,7 +5,7 @@ This is the documentation for the CASSANDRA retro data set. The data set consist
 ## Contact
 If you have any questions about this dataset itself or its processing, feel free to contact me via eMail:
 
-- [christoph.riepe@charite.de](mailto:christoph.riepe@charite.de)
+[christoph.riepe@charite.de](mailto:christoph.riepe@charite.de)
 
 ## Inclusion Criteria
 Inclusion criteria were defined based on the following three characteristics. A more detailed description of the included values of these characteristics follows in the further course.

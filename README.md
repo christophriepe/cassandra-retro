@@ -1,5 +1,10 @@
 # CASSANDRAretro
 
+## Contact
+If you have any questions about this dataset itself or its processing, feel free to contact me via eMail:
+
+- [Contact Me](mailto:christoph.riepe@charite.de)
+
 ## Inclusion Criteria
 - Year
 - System

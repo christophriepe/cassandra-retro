@@ -6,12 +6,15 @@ If you have any questions about this dataset itself or its processing, feel free
 - [christoph.riepe@charite.de](mailto:christoph.riepe@charite.de)
 
 ## Inclusion Criteria
+Inclusion criteria were defined based on the following three characteristics. A more detailed description of the included values of these characteristics follows in the further course.
+
 - Year
 - System
 - OPS
 
 ### Years
 All cases in which the index surgery was performed in one of the following eight years were included. 
+
 | ID   | Year |
 | :--- | :--- |
 | 0    | 2014 |
@@ -26,6 +29,7 @@ All cases in which the index surgery was performed in one of the following eight
 
 ### Systems
 All cases in which the index surgery was performed on one of the following five organ systems were included.
+
 | ID   | System    |
 | :--- | :---      |
 | 0    | Esophagus |
@@ -36,6 +40,7 @@ All cases in which the index surgery was performed on one of the following five 
 
 ### OPS
 All cases in which the index surgery was defined by one of the following OPS were included.
+
 | ID   | OPS   | System | Description                                                                                |
 | :--- | :---- | :----- | :----------------------------------------------------------------------------------------- |
 | 0    | 5-423 | 0      | Partielle Ösophagusresektion ohne Wiederherstellung der Kontinuität                        |

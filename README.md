@@ -142,7 +142,22 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 61   | surgery_stoma_relocation                                  | The information whether a stoma relocation was performed during index surgery                    | 100 %        |
 | 62   | surgery_reconnection                                      | The information whether a reconnection was performed during index surgery                        | 100 %        |
 | 63   | surgery_liver_transplantation [One Hot Encoding (x2)]     | The information whether a liver transplantation was performed during index surgery               | 100 %        |
+| 64   | surgery_kidney_transplantation [One Hot Encoding (x2)]    | The information whether a kidney transplantation was performed during index surger               | 100 %        |
+| 65   | surgery_pancreas_transplantation                          | The information whether a pancreas transplantation was performed during index surgery            | 100 %        |
+| 66   | surgery_cholecystectomy                                   | The information whether a cholecystectomy was performed during index surgery                     | 100 %        |
+| 67   | surgery_additional_cholecystectomy                        | The information whether an additional cholecystectomy was performed during index surgery         | 100 %        |
+| 68   | surgery_lung_resection                                    | The information whether a lung resection was performed during index surgery                      | 100 %        |
+| 69   | surgery_kidney_resection                                  | The information whether a kidney resection was performed during index surgery                    | 100 %        |
+| 70   | surgery_another_organs_or_delbuking                       | The information whether another organ or delbuking was performed during index surgery            | 100 %        |
+| 71   | surgery_vascular_resection                                | The information whether a vascular resection was performed during index surgery                  | 100 %        |
+| 72   | surgery_biliodigestive_anastomosis                        | The information whether a biliodigestive anastomosis was performed during index surgery          | 100 %        |
+| 73   | surgery_splenectomy                                       | The information whether a splenectomy was performed during index surgery                         | 100 %        |
+| 74   | surgery_simultaneous_hernia_management                    | The information whether a simultaneous hernia management was performed during index surgery      | 100 %        |
+| 75   | surgery_simultaneous_ablation                             | The information whether a simultaneous ablation was performed during index surgery               | 100 %        |
+| 76   | surgery_stoma_facility                                    | The information whether a stoma facility was performed during index surgery                      | 100 %        |
+| 77   | surgery_hipec                                             | The information whether hipec was performed during index surgery                                 | 100 %        |
 
+### Targets
 
 
 

@@ -90,27 +90,37 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Features
 
-| ID   | Name                                  | Description                                                                          | Completeness |
-| :--- | :------------------------------------ | :----------------------------------------------------------------------------------- | :----------- |
-| 14   | gender                                | The gender of the patient of the case                                                | 99.85 %      |
-| 15   | age                                   | The age of the patient of the case                                                   | 99.85 %      |
-| 16   | height                                | The height of the patient of the case                                                | 83.17 %      |
-| 17   | weight                                | The weight of the patient of the case                                                | 85.42 %      |
-| 18   | bmi                                   | The bmi of the patient of the case                                                   | 83.17 %      |
-| 19   | asa                                   | The asa score of the patient of the case                                             | 89.6 %       |
-| 20   | jones                                 | The jones score of the patient of the case                                           | 77.41 %      |
-| 21   | ecog                                  | The ecog score of the patient of the case                                            | 77.41 %      |
-| 22   | functional_status                     | The functional status of the patient of the case                                     | 77.41 %      |
-| 23   | charlson_comorbidity_score            | The charlson comorbidity score of the patient of the case                            | 99.85 %      |
-| 24   | condition_myocardial_infarction       | The information whether the patient of the case had suffered a heart attack          | 100 %        |
-| 25   | condition_congestive_heart_failure    | The information whether the patient of the case has congestive heart failure         | 100 %        |
-| 26   | condition_peripheral_vascular_disease | The information whether the patient of the case has peripheral vascular disease      | 100 %        |
-| 27   | condition_cerebrovascular_disease     | The information whether the patient of the case suffers from cerebrovascular disease | 100 %        |
-| 28   | condition_dementia                    | The information whether the patient of the case is suffering from dementia           | 100 %        |
-| 29   | condition_chronic_pulmonary_disease   | The information whether the patient of the case has a chronic pulmonary disease      | 100 %        |
-| 30   | condition_rheumatic_disease           | The information whether the patient of the case has a rheumatic disease              | 100 %        |
-| 31   | condition_peptic_ulcer_disease        | The information whether the patient of the case has a peptic ulcer disease           | 100 %        |
-
+| ID   | Name                                             | Description                                                                      | Completeness |
+| :--- | :----------------------------------------------- | :------------------------------------------------------------------------------- | :----------- |
+| 14   | gender                                           | The gender of the patient                                                        | 99.85 %      |
+| 15   | age                                              | The age of the patient                                                           | 99.85 %      |
+| 16   | height                                           | The height of the patient                                                        | 83.17 %      |
+| 17   | weight                                           | The weight of the patient                                                        | 85.42 %      |
+| 18   | bmi                                              | The body mass index of the patient                                               | 83.17 %      |
+| 19   | asa                                              | The asa score of the patient                                                     | 89.6 %       |
+| 20   | jones                                            | The jones score of the patient                                                   | 77.41 %      |
+| 21   | ecog                                             | The ecog score of the patient                                                    | 77.41 %      |
+| 22   | functional_status                                | The functional status of the patient                                             | 77.41 %      |
+| 23   | charlson_comorbidity_score                       | The charlson comorbidity score of the patient                                    | 99.85 %      |
+| 24   | condition_myocardial_infarction                  | The information whether the patient had suffered a myocardial infarction         | 100 %        |
+| 25   | condition_congestive_heart_failure               | The information whether the patient has congestive heart failure                 | 100 %        |
+| 26   | condition_peripheral_vascular_disease            | The information whether the patient has peripheral vascular disease              | 100 %        |
+| 27   | condition_cerebrovascular_disease                | The information whether the patient has cerebrovascular disease                  | 100 %        |
+| 28   | condition_dementia                               | The information whether the patient has dementia                                 | 100 %        |
+| 29   | condition_chronic_pulmonary_disease              | The information whether the patient has a chronic pulmonary disease              | 100 %        |
+| 30   | condition_rheumatic_disease                      | The information whether the patient has a rheumatic disease                      | 100 %        |
+| 31   | condition_peptic_ulcer_disease                   | The information whether the patient has a peptic ulcer disease                   | 100 %        |
+| 32   | condition_liver_disease_mild                     | The information whether the patient has a mild liver disease                     | 100 %        |
+| 33   | condition_liver_disease_moderate_to_severe       | The information whether the patient has a moderate to severe liver disease       | 100 %        |
+| 34   | condition_diabetes_without_chronic_complications | The information whether the patient has a diabetes without chronic complications | 100 %        |
+| 35   | condition_diabetes_with_chronic_complications    | The information whether the patient has a diabetes with chronic complications    | 100 %        |
+| 36   | condition_renal_disease_mild_to_moderate         | The information whether the patient has a mild to moderate renal disease         | 100 %        |
+| 37   | condition_renal_disease_severe                   | The information whether the patient has a severe renal disease                   | 100 %        |
+| 38   | condition_hemiplegia_or_paraplegia               | The information whether the patient has a hemiplegia or paraplegia               | 100 %        |
+| 39   | condition_malignancy                             | The information whether the patient has any malignancy                           | 100 %        |
+| 40   | condition_metastatic_solid_tumor                 | The information whether the patient has a metastatic solid tumor                 | 100 %        |
+| 41   | condition_hiv_without_aids                       | The information whether the patient has HIV without AIDS                         | 100 %        |
+| 42   | condition_aids                                   | The information whether the patient has AIDS                                     | 100 %        |
 
 
 

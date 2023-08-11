@@ -71,10 +71,10 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Meta
 
-| ID   | Feature                    | Description                                                  | Completeness |
+| ID   | Name                       | Description                                                  | Completeness |
 | :--- | :------------------------- | :----------------------------------------------------------- | :----------- |
 | 0    | meta_case_id [Primary Key] | The identifier of the case                                   | 100 %        |
-| 1    | meta_patient_id            | The identifier of the patient associated with the case       | 99.85 %      |
+| 1    | meta_patient_id            | The identifier of the patient of the case                    | 99.85 %      |
 | 2    | meta_surgery_id            | The identifier of the index surgery of the case              | 100 %        |
 | 3    | meta_year                  | The year of the index surgery of the case                    | 100 %        |
 | 4    | meta_system                | The system of the index surgery of the case                  | 99.51 %      |
@@ -87,6 +87,33 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 11   | meta_icu_admission_ts      | The primary icu stay admission timestamp of the case         | 65.26 %      |
 | 12   | meta_icu_discharge_ts      | The primary icu stay discharge timestamp of the case         | 65.26 %      |
 | 13   | meta_follow_up_ts          | The follow up timestamp of the case                          | 99.85 %      |
+
+### Features
+
+| ID   | Name                                  | Description                                                                          | Completeness |
+| :--- | :------------------------------------ | :----------------------------------------------------------------------------------- | :----------- |
+| 14   | gender                                | The gender of the patient of the case                                                | 99.85 %      |
+| 15   | age                                   | The age of the patient of the case                                                   | 99.85 %      |
+| 16   | height                                | The height of the patient of the case                                                | 83.17 %      |
+| 17   | weight                                | The weight of the patient of the case                                                | 85.42 %      |
+| 18   | bmi                                   | The bmi of the patient of the case                                                   | 83.17 %      |
+| 19   | asa                                   | The asa score of the patient of the case                                             | 89.6 %       |
+| 20   | jones                                 | The jones score of the patient of the case                                           | 77.41 %      |
+| 21   | ecog                                  | The ecog score of the patient of the case                                            | 77.41 %      |
+| 22   | functional_status                     | The functional status of the patient of the case                                     | 77.41 %      |
+| 23   | charlson_comorbidity_score            | The charlson comorbidity score of the patient of the case                            | 99.85 %      |
+| 24   | condition_myocardial_infarction       | The information whether the patient of the case had suffered a heart attack          | 100 %        |
+| 25   | condition_congestive_heart_failure    | The information whether the patient of the case has congestive heart failure         | 100 %        |
+| 26   | condition_peripheral_vascular_disease | The information whether the patient of the case has peripheral vascular disease      | 100 %        |
+| 27   | condition_cerebrovascular_disease     | The information whether the patient of the case suffers from cerebrovascular disease | 100 %        |
+| 28   | condition_dementia                    | The information whether the patient of the case is suffering from dementia           | 100 %        |
+| 29   | condition_chronic_pulmonary_disease   | The information whether the patient of the case has a chronic pulmonary disease      | 100 %        |
+| 30   | condition_rheumatic_disease           | The information whether the patient of the case has a rheumatic disease              | 100 %        |
+| 31   | condition_peptic_ulcer_disease        | The information whether the patient of the case has a peptic ulcer disease           | 100 %        |
+
+
+
+
 
 
 

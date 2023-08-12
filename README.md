@@ -1,4 +1,4 @@
-# CASSANDRAretro
+# CASSANDRA retro
 
 This is the documentation for the CASSANDRA retro data set. The data set consists of a pre-, intra- and postoperative component.
 

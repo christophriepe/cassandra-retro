@@ -159,4 +159,28 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Targets
 
+| ID   | Name                              | Description                                                                      | Completeness | Note |
+| :--- | :-------------------------------- | :------------------------------------------------------------------------------- | :----------- | :--- |
+| 78   | target_30_day_mortality           | The information whether the patient died within 30 days                          | 98.48 %      |      |
+| 79   | target_90_day_mortality           | The information whether the patient died within 90 days                          | 81.31 %      |      |
+| 80   | target_death_within_primary_stay  | The information whether the patient died within the primary stay                 | 99.65 %      |      |
+| 81   | target_icu_readmission            | The information whether the patient was admitted back to the icu after discharge | 99.65 %      |      |
+| 82   | target_resurgery                  | The information whether the patient had a resurgery during primary stay          | 100 %        |      |
+| 83   | target_number_of_surgeries        | The number of surgeries the patient has had during primary stay                  | 100 %        |      |
+| 84   | target_discharge_ts               | The discharge timestamp of the case                                              | 99.65%       |      |
+| 85   | target_length_of_stay             | The length of the primary stay in nights                                         | 99.65 %      |      |
+| 86   | target_number_of_icu_stays        | The number of icu stays the patient has had during primary stay                  | 99.65 %      |      |
+| 87   | target_nights_on_primary_icu_stay | The length of the primary icu stay in nights                                     | 99.65 %      |      |
+| 88   | target_number_of_icu_readmissions | The number of icu readmissions the patient has had during primary stay           | 99.65 %      |      |
+
+
+
+
+
+
+
+
+
+
+
 

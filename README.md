@@ -69,7 +69,7 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ## preOP
 
-The preoperative data set, which accurately represents the condition of patients before their index surgery. The dataset consists of a total of 90 variables or 144 after one hot encoding.
+The preoperative data set, which accurately represents the condition of patients before their index surgery. The dataset consists of a total of 90 variables or 144 variables after one hot encoding.
 
 ### Meta
 

@@ -173,7 +173,29 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 87   | target_nights_on_primary_icu_stay | The length of the primary icu stay in nights                                     | 99.65 %      |      |
 | 88   | target_number_of_icu_readmissions | The number of icu readmissions the patient has had during primary stay           | 99.65 %      |      |
 
+## intraOP
 
+### Types
+
+| ID   | Name       | Description                                  | Count   |
+| :--- | :--------- | :------------------------------------------  | :------ |
+| 0    | rmv        | Respiratory Minute Volume                    | 289,975 |
+| 1    | abg_abe    | Arterial Blood Gas (ABG): Actual Base Excess | 200,298 |
+| 2    | abg_ca     | ABG: Calcium                                 | 211,676 |
+| 3    | abg_cl     | ABG: Chloride                                | 190,786 |
+| 4    | abg_cohb   | ABG: Carboxyhemoglobin                       | 202,558 |
+| 5    | abg_fio2   | ABG: Fraction of Inspired Oxygen             | 213,099 |
+| 6    | abg_glu    | ABG: Glucose                                 | 204,956 |
+| 7    | abg_hct    | ABG: Hematocrit                              | 201,470 |
+| 8    | abg_k      | ABG: Potassium                               | 204,976 |
+| 9    | abg_lac    | ABG: Lactate                                 | 201,436 |
+| 10   | abg_met_hb | ABG: Methemoglobin                           | 202,490 |
+| 11   | abg_na     | ABG: Sodium                                  | 202,298 |
+| 12   | abg_o2hb   | ABG: Oxyhemoglobin                           | 204,612 |
+| 13   | abg_pco2   | ABG: Partial Pressure of Carbon Dioxide      | 201,423 |
+| 14   | abg_ph     | ABG: Potential of Hydrogen                   | 203,156 |
+| 15   | abg_po2    | ABG: Partial Pressure of Oxygen              | 200,861 |
+| 16   | abg_sbe    | ABG: Standard Base Excess                    | 200,245 |
 
 
 

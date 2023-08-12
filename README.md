@@ -71,22 +71,22 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Meta
 
-| ID   | Name                       | Description                                      | Completeness |
-| :--- | :------------------------- | :----------------------------------------------- | :----------- |
-| 0    | meta_case_id [Primary Key] | The identifier of the case                       | 100 %        |
-| 1    | meta_patient_id            | The identifier of the patient                    | 99.85 %      |
-| 2    | meta_surgery_id            | The identifier of the index surgery              | 100 %        |
-| 3    | meta_year                  | The year of the index surgery                    | 100 %        |
-| 4    | meta_system                | The system of the index surgery                  | 99.51 %      |
-| 5    | meta_ops                   | The ops of the index surgery                     | 98.6 %       |
-| 6    | meta_campus                | The campus where the index surgery was performed | 99.38 %      |
-| 7    | meta_admission_ts          | The admission timestamp of the case              | 99.65 %      |
-| 8    | meta_discharge_ts          | The discharge timestamp of the case              | 99.65 %      |
-| 9    | meta_incision_ts           | The incision timestamp of the index surgery      | 100 %        |
-| 10   | meta_suture_ts             | The suture timestamp of the index surgery        | 100 %        |
-| 11   | meta_icu_admission_ts      | The admission timestamp of the primary icu stay  | 65.26 %      |
-| 12   | meta_icu_discharge_ts      | The discharge timestamp of the primary icu stay  | 65.26 %      |
-| 13   | meta_follow_up_ts          | The follow up timestamp of the case              | 99.85 %      |
+| ID   | Name                  | Description                                      | Completeness | Note        |
+| :--- | :-------------------- | :----------------------------------------------- | :----------- | :---------- |
+| 0    | meta_case_id          | The identifier of the case                       | 100 %        | Primary Key |
+| 1    | meta_patient_id       | The identifier of the patient                    | 99.85 %      |             |
+| 2    | meta_surgery_id       | The identifier of the index surgery              | 100 %        |             |
+| 3    | meta_year             | The year of the index surgery                    | 100 %        |             |
+| 4    | meta_system           | The system of the index surgery                  | 99.51 %      |             |
+| 5    | meta_ops              | The ops of the index surgery                     | 98.6 %       |             |
+| 6    | meta_campus           | The campus where the index surgery was performed | 99.38 %      |             |
+| 7    | meta_admission_ts     | The admission timestamp of the case              | 99.65 %      |             |
+| 8    | meta_discharge_ts     | The discharge timestamp of the case              | 99.65 %      |             |
+| 9    | meta_incision_ts      | The incision timestamp of the index surgery      | 100 %        |             |
+| 10   | meta_suture_ts        | The suture timestamp of the index surgery        | 100 %        |             |
+| 11   | meta_icu_admission_ts | The admission timestamp of the primary icu stay  | 65.26 %      |             |
+| 12   | meta_icu_discharge_ts | The discharge timestamp of the primary icu stay  | 65.26 %      |             |
+| 13   | meta_follow_up_ts     | The follow up timestamp of the case              | 99.85 %      |             |
 
 ### Features
 

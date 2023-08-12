@@ -225,22 +225,22 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 2    | abg_hb       | ABG: Hemoglobin                                      | 206,575   |
 | 3    | abg_hco3     | ABG: Bicarbonate                                     | 205,728   |
 | 4    | abg_hct      | ABG: Hematocrit                                      | 200,578   |
+| 9    | abg_k        | ABG: Potassium                                       | 205,543   |
 | 5    | abg_lac      | ABG: Lactate                                         | 205,191   |
+| 12   | abg_na       | ABG: Sodium                                          | 205,245   |
 | 6    | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide              | 208,354   |
 | 7    | abg_ph       | ABG: Potential of Hydrogen                           | 209,719   |
 | 8    | abg_po2      | ABG: Partial Pressure of Oxygen                      | 231,334   |
-| 9    | abg_k        | ABG: Potassium                                       | 205,543   |
 | 10   | abg_sbe      | ABG: Standard Base Excess                            | 204,797   |
 | 11   | abg_so2      | ABG: Oxygen Saturation                               | 209,468   |
-| 12   | abg_na       | ABG: Sodium                                          | 205,245   |
 | 13   | bp_dia       | Blood Pressure: Diastolic                            | 2,723,660 |
-| 14   | map          | Mean Arterial Pressure                               | 2,185,302 |
 | 15   | bp_sys       | Blood Pressure: Systolic                             | 2,723,442 |
 | 16   | cvp          | Central Venous Pressure                              | 821,441   |
 | 17   | drainage     | Drainage Output                                      | 349,405   |
 | 18   | fluid_in     | Fluid Intake                                         | 253,114   |
 | 19   | fluid_out    | Fluid Output                                         | 553,899   |
 | 20   | hr           | Heart Rate                                           | 2,639,607 |
+| 14   | map          | Mean Arterial Pressure                               | 2,185,302 |
 | 21   | rr           | Respiratory Rate                                     | 2,296,077 |
 | 22   | sao2         | Arterial Oxygen Saturation                           | 2,522,500 |
 | 23   | score_dds    | Score: Diabetes Distress Scale                       | 84,391    |

@@ -196,7 +196,9 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 14   | abg_ph     | ABG: Potential of Hydrogen                   | 203,156 |
 | 15   | abg_po2    | ABG: Partial Pressure of Oxygen              | 200,861 |
 | 16   | abg_sbe    | ABG: Standard Base Excess                    | 200,245 |
-
+| 17   | abg_so2    | ABG: Oxygen Saturation                       | 204,468 |
+| 18   | abg_temp   | ABG: Temperature                             | 216,439 |
+| 19   | abg_thb    | ABG: Total Hemoglobin                        | 204,484 |
 
 
 

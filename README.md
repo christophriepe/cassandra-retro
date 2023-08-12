@@ -69,7 +69,11 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ## preOP
 
+The preoperative data set, which accurately represents the condition of patients before their index surgery. The dataset consists of a total of 90 variables or 144 after one hot encoding.
+
 ### Meta
+
+The meta variables of the dataset.
 
 | ID   | Name                  | Description                                      | Completeness | Note        |
 | :--- | :-------------------- | :----------------------------------------------- | :----------- | :---------- |
@@ -89,6 +93,8 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 13   | meta_follow_up_ts     | The follow up timestamp of the case              | 99.85 %      |             |
 
 ### Features
+
+The preoperative variables of the dataset which can be used as features.
 
 | ID   | Name                                             | Description                                                                                      | Completeness | Note          |
 | :--- | :----------------------------------------------- | :----------------------------------------------------------------------------------------------- | :----------- | :------------ |
@@ -159,6 +165,8 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Targets
 
+The postoperative variables of the dataset which can be used as targets.
+
 | ID   | Name                              | Description                                                                      | Completeness | Note |
 | :--- | :-------------------------------- | :------------------------------------------------------------------------------- | :----------- | :--- |
 | 78   | target_30_day_mortality           | The information whether the patient died within 30 days                          | 98.48 %      |      |
@@ -172,10 +180,11 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 86   | target_number_of_icu_stays        | The number of icu stays the patient has had during primary stay                  | 99.65 %      |      |
 | 87   | target_nights_on_primary_icu_stay | The length of the primary icu stay in nights                                     | 99.65 %      |      |
 | 88   | target_number_of_icu_readmissions | The number of icu readmissions the patient has had during primary stay           | 99.65 %      |      |
+| 89   | target_surgery_duration           | The duration of the index surgery of the case                                    | 100.0 %      |      |
 
 ## intraOP
 
-The intraoperative data set, which accurately represents the condition of patients during surgery across a variety of different variables. The dataset consists of a total of x data points.
+The intraoperative data set, which accurately represents the condition of patients during surgery across a variety of different variables. The dataset consists of a total of 12,476,917 data points.
 
 ### Types
 

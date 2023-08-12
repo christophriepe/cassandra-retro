@@ -212,7 +212,7 @@ All cases in which the index surgery was defined by one of the following OPS wer
 | 30   | sao2         | Arterial Oxygen Saturation                   | 797,748   |
 | 31   | sedline      | Sedline                                      | 72,691    |
 | 32   | temp         | Temperature                                  | 475,443   |
-| 33   | zvd          | Central Venous Pressure                      | 322,280   |
+| 33   | cvd          | Central Venous Pressure                      | 322,280   |
 
 ## postOP
 

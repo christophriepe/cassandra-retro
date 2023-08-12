@@ -175,7 +175,11 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ## intraOP
 
+The intraoperative data set, which accurately represents the condition of patients during surgery across a variety of different variables. The dataset consists of a total of x data points.
+
 ### Types
+
+All types represented in the intraoperative dataset with the corresponding number of recorded events.
 
 | ID   | Name         | Description                                  | Count     |
 | :--- | :----------- | :------------------------------------------  | :-------- |
@@ -216,7 +220,11 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ## postOP
 
+The postoperative data set, which accurately represents the condition of ICU patients across a variety of different variables. The dataset consists of a total of 22,358,778 data points.
+
 ### Types
+
+All types represented in the postoperative dataset with the corresponding number of recorded events.
 
 | ID   | Name         | Description                                          | Count     |
 | :--- | :----------- | :--------------------------------------------------- | :-------- |

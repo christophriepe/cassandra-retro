@@ -218,9 +218,19 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ### Types
 
-| ID   | Name         | Description                                  | Count     |
-| :--- | :----------- | :------------------------------------------  | :-------- |
-
+| ID   | Name         | Description                             | Count     |
+| :--- | :----------- | :-------------------------------------- | :-------- |
+| 0    | abg_ca       | Arterial Blood Gas (ABG): Calcium       | 205,118   |
+| 1    | abg_glu      | ABG: Glucose                            | 206,429   |
+| 2    | abg_hb       | ABG: Hemoglobin                         | 206,575   |
+| 3    | abg_hco3     | ABG: Bicarbonate                        | 205,728   |
+| 4    | abg_hct      | ABG: Hematocrit                         | 200,578   |
+| 5    | abg_lac      | ABG: Lactate                            | 205,191   |
+| 6    | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide | 208,354   |
+| 7    | abg_ph       | ABG: Potential of Hydrogen              | 209,719   |
+| 8    | abg_po2      | ABG: Partial Pressure of Oxygen         | 231,334   |
+| 9    | abg_k        | ABG: Potassium                          | 205,543   |
+| 10   | abg_sbe      | ABG: Standard Base Excess               | 204,797   |
 
 
 

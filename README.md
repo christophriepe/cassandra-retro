@@ -358,10 +358,17 @@ An overview of the different laboratory values represented in the data set toget
 | 78   | quick     | Quick Value                               | %         | 82,252  |
 | 79   | rbc       | Erythrocytes                              | /pl       | 92,824  |
 | 80   | rdw       | Red Cell Distribution Width               | %         | 92,534  |
-
-
-
-
-
-
-
+| 81   | rtic      | Reticulocytes                             | /nl       | 10,620  |
+| 82   | schisto   | Schistocytes                              | %         | 775     |
+| 83   | so2       | Oxygen Saturation                         | %         | 182,775 |
+| 84   | t         | Temperature                               | °C        | 195,461 |
+| 85   | tbil      | Total Bilirubin                           | mg/dl     | 127,374 |
+| 86   | tc        | Total Cholesterol                         | mg/dl     | 1,158   |
+| 87   | tg        | Total Triglycerides                       | mg/dl     | 2,694   |
+| 88   | trans     | Transferrin                               | g/l       | 814     |
+| 89   | ts        | Transferrin Saturation                    | %         | 657     |
+| 90   | tsh       | Thyroid Stimulating Hormone               | mU/l      | 6,244   |
+| 91   | ua        | Uric Acid                                 | mg/dl     | 2,735   |
+| 92   | urea      | Urea                                      | mg/dl     | 75,074  |
+| 93   | vd25      | 25 OH Vitamin D3                          | nmol/l    | 333     |
+| 94   | wbc       | Leukocytes                                | /nl       | 92,862  |

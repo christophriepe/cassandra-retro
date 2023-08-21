@@ -275,13 +275,29 @@ The laboratory dataset consists of 6,145,072 data points across 95 different lab
 
 An overview of the different laboratory values represented in the data set together with important key figures.
 
-| ID   | Name         | Description                    | Dimension | N      |
-| :--- | :----------- | :----------------------------- | :-------- | :----- |
-| 0    | vd25         | 25 OH Vitamin D3               | nmol/l    | 333    |
-| 1    | alat         | Alanin Aminotransferase (ALAT) | U/l       | 64,906 |
-| 2    | alb          | Albumin                        | g/l       | 64,906 |
-| 3    | alp          | Alkaline Phosphatase           | U/l       | 53,271 |
-| 4    | ams          | Amylase                        | U/l       | 1,856  |
+| ID   | Name     | Description                 | Dimension | N       |
+| :--- | :------- | :-------------------------- | :-------- | :------ |
+| 0    | alat     | Alanin Aminotransferase     | U/l       | 64,906  |
+| 1    | alb      | Albumin                     | g/l       | 25,953  |
+| 2    | alp      | Alkaline Phosphatase        | U/l       | 53,271  |
+| 3    | ams      | Amylase                     | U/l       | 1,856   |
+| 4    | aptt     | Partial Thromboplastin Time | sec       | 67,210  |
+| 5    | asat     | Aspartate Aminotransferase  | U/l       | 66,266  |
+| 6    | at       | Antithrombin                | %         | 15,353  |
+| 7    | baso     | Basophils                   | /nl       | 15,358  |
+| 8    | baso_rel | Basophils Relative          | %         | 15,421  |
+| 9    | be       | Base Excess                 | mmol/l    | 328,758 |
+| 10   | ca       | Calcium                     | mmol/l    | 192,286 |
+| 11   | ck       | Creatine Kinase             | U/l       | 7,680   |
+| 12   | ck_mb    | Creatine Kinase MB          | U/l       | 4,494   |
+| 13   | cl       | Chloride                    | mmol/l    | 170,816 |
+| 14   | cohb     | Carboxyhemoglobin           | %         | 170,559 |
+| 15   | cr       | Creatinine                  | mg/dl     | 82,413  |
+| 16   | crp      | C Reactive Protein          | mg/l      | 74,973  |
+| 17   | cys_c    | Cystatin C                  | mg/l      | 761     |
+| 18   | d_dim    | D Dimer                     | mg/l      | 1,540   |
+| 19   | dbil     | Direct Bilirubin            | mg/dl     | 8,152   |
+| 20   | ebl      | Erythroblasts               | /nl       | 17,909  |
 
 
 

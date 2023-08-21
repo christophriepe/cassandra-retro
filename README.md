@@ -266,3 +266,27 @@ All types represented in the postoperative dataset with the corresponding number
 | 26   | score_sofa   | Score: Sepsis related Organ Failure Assessment Score | 58,220    |
 | 27   | score_tiss28 | Score: Therapeutic Intervention Scoring System 28    | 61,028    |
 | 28   | temp         | Temperature                                          | 2,091,141 |
+
+## Lab Data
+
+The laboratory dataset consists of 6,145,072 data points across 95 different laboratory values, accurately representing the laboratory medical aspect of the included case population over the entire hospital course.
+
+### Types
+
+An overview of the different laboratory values represented in the data set together with important key figures.
+
+| ID   | Name         | Description                    | Dimension | Count  |
+| :--- | :----------- | :----------------------------- | :-------- | :----- |
+| 0    | vd25         | 25 OH Vitamin D3               | nmol/l    | 333    |
+| 1    | alat         | Alanin Aminotransferase (ALAT) | U/l       | 64,906 |
+| 2    | alb          | Albumin                        | g/l       | 64,906 |
+| 3    | alp          | Alkaline Phosphatase           | U/l       | 53,271 |
+| 4    | ams          | Amylase                        | U/l       | 1,856  |
+
+
+
+
+
+
+
+

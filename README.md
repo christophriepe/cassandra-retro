@@ -275,7 +275,7 @@ The laboratory dataset consists of 6,145,072 data points across 95 different lab
 
 An overview of the different laboratory values represented in the data set together with important key figures.
 
-| ID   | Name         | Description                    | Dimension | Count  |
+| ID   | Name         | Description                    | Dimension | N      |
 | :--- | :----------- | :----------------------------- | :-------- | :----- |
 | 0    | vd25         | 25 OH Vitamin D3               | nmol/l    | 333    |
 | 1    | alat         | Alanin Aminotransferase (ALAT) | U/l       | 64,906 |

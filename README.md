@@ -265,7 +265,7 @@ All types represented in the postoperative dataset with the corresponding number
 | 25   | score_saps2  | Score: Simplified Acute Physiology Score II          | 58,292    |
 | 26   | score_sofa   | Score: Sepsis related Organ Failure Assessment Score | 58,220    |
 | 27   | score_tiss28 | Score: Therapeutic Intervention Scoring System 28    | 61,028    |
-| 28   | temp         | Temperature                                          | 2,091,141 |
+| 28   | t            | Temperature                                          | 2,091,141 |
 
 ## Lab Data
 

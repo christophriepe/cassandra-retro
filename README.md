@@ -248,7 +248,7 @@ All types represented in the postoperative dataset with the corresponding number
 | 6    | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide              | 208,354   |
 | 7    | abg_ph       | ABG: Potential of Hydrogen                           | 209,719   |
 | 8    | abg_po2      | ABG: Partial Pressure of Oxygen                      | 231,334   |
-| 10   | abg_sbe      | ABG: Standard Base Excess                            | 204,797   |
+| 10   | abg_be       | ABG: Standard Base Excess                            | 204,797   |
 | 11   | abg_so2      | ABG: Oxygen Saturation                               | 209,468   |
 | 13   | bp_dia       | Blood Pressure: Diastolic                            | 2,723,660 |
 | 15   | bp_sys       | Blood Pressure: Systolic                             | 2,723,442 |

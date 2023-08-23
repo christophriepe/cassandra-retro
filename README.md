@@ -201,7 +201,7 @@ All types represented in the intraoperative dataset with the corresponding numbe
 | 6    | abg_hct      | ABG: Hematocrit                              | 201,470   |
 | 7    | abg_k        | ABG: Potassium                               | 204,976   |
 | 8    | abg_lac      | ABG: Lactate                                 | 201,436   |
-| 9    | abg_met_hb   | ABG: Methemoglobin                           | 202,490   |
+| 9    | abg_methb    | ABG: Methemoglobin                           | 202,490   |
 | 10   | abg_na       | ABG: Sodium                                  | 202,298   |
 | 11   | abg_o2hb     | ABG: Oxyhemoglobin                           | 204,612   |
 | 12   | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide      | 201,423   |
@@ -209,7 +209,7 @@ All types represented in the intraoperative dataset with the corresponding numbe
 | 14   | abg_po2      | ABG: Partial Pressure of Oxygen              | 200,861   |
 | 15   | abg_sbe      | ABG: Standard Base Excess                    | 200,245   |
 | 16   | abg_so2      | ABG: Oxygen Saturation                       | 204,468   |
-| 17   | abg_temp     | ABG: Temperature                             | 216,439   |
+| 17   | abg_t        | ABG: Temperature                             | 216,439   |
 | 18   | abg_thb      | ABG: Total Hemoglobin                        | 204,484   |
 | 19   | bp_dia       | Blood Pressure: Diastolic                    | 1,839,639 |
 | 20   | bp_sys       | Blood Pressure: Systolic                     | 1,840,497 |
@@ -237,19 +237,27 @@ All types represented in the postoperative dataset with the corresponding number
 
 | ID   | Name         | Description                                          | COPRA 5 | COPRA 6 | N         |
 | :--- | :----------- | :--------------------------------------------------- | :------ | :------ | :-------- |
-| 0    | abg_ca       | Arterial Blood Gas (ABG): Calcium                    |         |         | 205,118   |
-| 1    | abg_glu      | ABG: Glucose                                         |         |         | 206,429   |
-| 2    | abg_hb       | ABG: Hemoglobin                                      |         |         | 206,575   |
-| 3    | abg_hco3     | ABG: Bicarbonate                                     |         |         | 205,728   |
-| 4    | abg_hct      | ABG: Hematocrit                                      |         |         | 200,578   |
-| 9    | abg_k        | ABG: Potassium                                       |         |         | 205,543   |
-| 5    | abg_lac      | ABG: Lactate                                         |         |         | 205,191   |
-| 12   | abg_na       | ABG: Sodium                                          |         |         | 205,245   |
-| 6    | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide              |         |         | 208,354   |
-| 7    | abg_ph       | ABG: Potential of Hydrogen                           |         |         | 209,719   |
-| 8    | abg_po2      | ABG: Partial Pressure of Oxygen                      |         |         | 231,334   |
-| 10   | abg_be       | ABG: Standard Base Excess                            |         |         | 204,797   |
-| 11   | abg_so2      | ABG: Oxygen Saturation                               |         |         | 209,468   |
+| 0    | abg_abe      | Arterial Blood Gas (ABG): Actual Base Excess         | -       | X       | 198,383   |
+| 1    | abg_ca       | ABG: Calcium                                         | X       | X       | 414,292   |
+| 2    | abg_cl       | ABG: Chloride                                        | -       | X       | 186,076   |
+| 3    | abg_cohb     | ABG: Carboxyhemoglobin                               | -       | X       | 196,710   |
+| 4    | abg_fio2     | ABG: Fraction of Inspired Oxygen                     | -       | X       | 210,218   |
+| 5    | abg_glu      | ABG: Glucose                                         | X       | X       | 408,988   |
+| 6    | abg_hco3     | ABG: Bicarbonate                                     | X       | X       | 207,009   |
+| 7    | abg_hct      | ABG: Hematocrit                                      | X       | X       | 397,143   |
+| 8    | abg_k        | ABG: Potassium                                       | X       | X       | 407,536   |
+| 9    | abg_lac      | ABG: Lactate                                         | X       | X       | 403,353   |
+| 10   | abg_methb    | ABG: Methemoglobin                                   | -       | X       | 196,622   |
+| 11   | abg_na       | ABG: Sodium                                          | X       | X       | 404,510   |
+| 12   | abg_o2hb     | ABG: Oxyhemoglobin                                   | -       | X       | 202,575   |
+| 13   | abg_pco2     | ABG: Partial Pressure of Carbon Dioxide              | X       | X       | 410,647   |
+| 14   | abg_ph       | ABG: Potential of Hydrogen                           | X       | X       | 411,239   |
+| 15   | abg_po2      | ABG: Partial Pressure of Oxygen                      | X       | X       | 429,474   |
+| 16   | abg_rhb      | ABG: Reduced Hemoglobin                              | -       | X       | 2,759     |
+| 17   | abg_sbe      | ABG: Standard Base Excess                            | X       | X       | 402,326   |
+| 18   | abg_so2      | ABG: Oxygen Saturation                               | X       | X       | 411,284   |
+| 19   | abg_t        | ABG: Temperature                                     | -       | X       | 215,939   |
+| 20   | abg_thb      | ABG: Total Hemoglobin                                | X       | X       | 408,764   |
 | 13   | bp_dia       | Blood Pressure: Diastolic                            |         |         | 2,723,660 |
 | 15   | bp_sys       | Blood Pressure: Systolic                             |         |         | 2,723,442 |
 | 16   | cvp          | Central Venous Pressure                              |         |         | 821,441   |
@@ -260,11 +268,11 @@ All types represented in the postoperative dataset with the corresponding number
 | 14   | map          | Mean Arterial Pressure                               |         |         | 2,185,302 |
 | 21   | rr           | Respiratory Rate                                     |         |         | 2,296,077 |
 | 22   | sao2         | Arterial Oxygen Saturation                           |         |         | 2,522,500 |
-| 23   | score_dds    | Score: Diabetes Distress Scale                       |         |         | 84,391    |
-| 24   | score_gcs    | Score: Glasgow Coma Score                            |         |         | 233,180   |
-| 25   | score_saps2  | Score: Simplified Acute Physiology Score II          |         |         | 58,292    |
-| 26   | score_sofa   | Score: Sepsis related Organ Failure Assessment Score |         |         | 58,220    |
-| 27   | score_tiss28 | Score: Therapeutic Intervention Scoring System 28    |         |         | 61,028    |
+| 23   | dds          | Score: Diabetes Distress Scale                       |         |         | 84,391    |
+| 24   | gcs          | Score: Glasgow Coma Score                            |         |         | 233,180   |
+| 25   | saps2        | Score: Simplified Acute Physiology Score II          |         |         | 58,292    |
+| 26   | sofa         | Score: Sepsis related Organ Failure Assessment Score |         |         | 58,220    |
+| 27   | tiss28       | Score: Therapeutic Intervention Scoring System 28    |         |         | 61,028    |
 | 28   | t            | Temperature                                          |         |         | 2,091,141 |
 
 ## Lab Data

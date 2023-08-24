@@ -1,13 +1,15 @@
 # CASSANDRA retro
 
-This is the documentation for the CASSANDRA retro dataset. The dataset consists of a pre-, intra- and postoperative component.
+This is the documentation for the CASSANDRA retro dataset, which consists of a preoperative, intraoperative, postoperative and laboratory component. Thus, the dataset describes the entire medical course of 9,466 patients across disciplines and contains a total of 51,967,074 data points.
 
 ## Contact
+
 If you have any questions about this dataset itself or its processing, feel free to contact me via eMail:
 
 [christoph.riepe@charite.de](mailto:christoph.riepe@charite.de)
 
 ## Inclusion Criteria
+
 Inclusion criteria were defined based on the following three characteristics. A more detailed description of the included values of these characteristics follows in the further course.
 
 - Year
@@ -15,6 +17,7 @@ Inclusion criteria were defined based on the following three characteristics. A 
 - OPS
 
 ### Years
+
 All cases in which the index surgery was performed in one of the following eight years were included. 
 
 | ID   | Year |
@@ -30,6 +33,7 @@ All cases in which the index surgery was performed in one of the following eight
 
 
 ### Systems
+
 All cases in which the index surgery was performed on one of the following five organ systems were included.
 
 | ID   | System    |
@@ -41,6 +45,7 @@ All cases in which the index surgery was performed on one of the following five 
 | 4    | Pancreas  |
 
 ### OPS
+
 All cases in which the index surgery was defined by one of the following OPS were included.
 
 | ID   | OPS   | System | Description                                                                                |
@@ -69,7 +74,7 @@ All cases in which the index surgery was defined by one of the following OPS wer
 
 ## preOP
 
-The preoperative data set, which accurately represents the condition of patients before their index surgery. The dataset consists of a total of 90 variables or 144 variables after one hot encoding.
+The preoperative data set, which accurately represents the condition of patients before their index surgery. The dataset consists of a total of 90 variables or 144 variables after one hot encoding, resulting in 1.024.992 singular data points.
 
 ### Meta
 

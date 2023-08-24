@@ -77,9 +77,9 @@ The meta variables of the dataset.
 
 | ID   | Name                  | Description                                      | Completeness | Note        |
 | :--- | :-------------------- | :----------------------------------------------- | :----------- | :---------- |
-| 0    | meta_case_id          | The identifier of the case                       | 100 %        | Primary Key |
-| 1    | meta_patient_id       | The identifier of the patient                    | 99.85 %      |             |
-| 2    | meta_surgery_id       | The identifier of the index surgery              | 100 %        |             |
+| 0    | meta_case             | The identifier of the case                       | 100 %        | Primary Key |
+| 1    | meta_patient          | The identifier of the patient                    | 99.85 %      |             |
+| 2    | meta_surgery          | The identifier of the index surgery              | 100 %        |             |
 | 3    | meta_year             | The year of the index surgery                    | 100 %        |             |
 | 4    | meta_system           | The system of the index surgery                  | 99.51 %      |             |
 | 5    | meta_ops              | The ops of the index surgery                     | 98.6 %       |             |

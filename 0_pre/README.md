@@ -11,8 +11,8 @@
 | Features |     |         |           |                  |     |     |
 |          | 2   | gender  | -         | 94.61            | -   | -   |
 |          | 3   | age     |           | 100              | 18  | 120 |
-|          | 4   | height  | cm        | 74.48            |     | 250 |
-|          | 5   | weight  | kg        | 85.78            |     | 250 |
+|          | 4   | height  | cm        | 74.48            | 100 | 250 |
+|          | 5   | weight  | kg        | 85.78            | 25  | 300 |
 |          | 6   | bmi     | kg/m²     | 72.37            |     |     |
 
 ## Additional Notes

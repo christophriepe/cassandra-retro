@@ -2,18 +2,18 @@
 
 ## Data Structure
 
-|          | ID  | Feature | Completeness (%) | Min | Max |
-| -------- | --- | ------- | ---------------- | --- | --- |
-| Meta     |     |         |                  |     |     |
-|          | 0   | center  | 100              |     |     |
-|          | 1   | date    | 100              |     |     |
-|          | ... | ...     | ...              |     |     |
-| Features |     |         |                  |     |     |
-|          | 2   | gender  | 94.61            |     |     |
-|          | 3   | age     | 100              |     |     |
-|          | 4   | height  | 74.48            |     |     |
-|          | 5   | weight  | 85.78            |     |     |
-|          | 6   | bmi     | 72.37            |     |     |
+|          | ID  | Feature | Dimension | Completeness (%) | Min | Max |
+| -------- | --- | ------- | --------- | ---------------- | --- | --- |
+| Meta     |     |         |           |                  |     |     |
+|          | 0   | center  |           | 100              |     |     |
+|          | 1   | date    |           | 100              |     |     |
+|          | ... | ...     |           | ...              |     |     |
+| Features |     |         |           |                  |     |     |
+|          | 2   | gender  | -         | 94.61            | -   | -   |
+|          | 3   | age     |           | 100              | 18  | 120 |
+|          | 4   | height  | cm        | 74.48            |     | 250 |
+|          | 5   | weight  | kg        | 85.78            |     | 250 |
+|          | 6   | bmi     | kg/m²     | 72.37            |     |     |
 
 ## Additional Notes
 

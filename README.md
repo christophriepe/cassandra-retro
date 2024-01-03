@@ -16,25 +16,9 @@ Specific information on the individual components of the overall data set can be
 
 Inclusion criteria were defined based on the following three characteristics. A more detailed description of the included values of these characteristics follows in the further course.
 
-- Year
-- System
-- OPS
+### Year
 
-### Years
-
-All cases in which the index surgery was performed in one of the following eight years were included. 
-
-| ID   | Year |
-| :--- | :--- |
-| 0    | 2014 |
-| 1    | 2015 |
-| 2    | 2016 |
-| 3    | 2017 |
-| 4    | 2018 |
-| 5    | 2019 |
-| 6    | 2020 |
-| 7    | 2021 |
-
+All cases were included in which the incision time of the index operation was within 2014 to 2022.
 
 ### Systems
 

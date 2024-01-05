@@ -109,7 +109,7 @@ The preoperative data set contains static medical data at the time before the in
 
 The following exclusion criteria were applied to the following data sets:
 
-### pre_elective _(pre_elective_v1.csv)_
+### Elective _(pre_elective_v1.csv)_
 
 Exclusion Criteria:
 - **meta_urgency:** <= 3
@@ -119,7 +119,7 @@ Exclusion Criteria:
 
 Output: 7,712 cases
 
-### pre_emergency _(pre_emergency_v1.csv)_
+### Emergency _(pre_emergency_v1.csv)_
 
 Exclusion Criteria:
 - **meta_urgency:** >= 4

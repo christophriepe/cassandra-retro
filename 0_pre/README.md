@@ -60,11 +60,11 @@ The preoperative data set contains static medical data at the time before the in
 |   51 | coronary_heart_disease                 | -           | 0                   | 1                   | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
 |   52 | chronic_pancreatitis                   | -           | 0                   | 1                   | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
 |   53 | primary_system                         | -           | -                   | -                   | object         |   13225 |        9185 |        4040 |         100    |             100    |             100    | esophagus           | esophagus           | esophagus           | stomach             | stomach             | stomach             |        5 |            5 |            5 |
-|   54 | system_esophagus                       | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
-|   55 | system_stomach                         | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
-|   56 | system_intestine                       | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
-|   57 | system_liver                           | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
-|   58 | system_pancreas                        | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   54 | system_esophagus                       | -           | 0                   | 1                   | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   55 | system_stomach                         | -           | 0                   | 1                   | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   56 | system_intestine                       | -           | 0                   | 1                   | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   57 | system_liver                           | -           | 0                   | 1                   | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   58 | system_pancreas                        | -           | 0                   | 1                   | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
 |   59 | system_count                           | -           | 1                   | 5                   | float64        |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 1.0                 | 1.0                 | 1.0                 | 4.0                 | 4.0                 | 3.0                 |        4 |            4 |            3 |
 |   60 | urgency                                | -           | 0                   | 5                   | Int64          |   13048 |        9009 |        4039 |          98.66 |              98.08 |              99.98 | 0                   | 0                   | 0                   | 5                   | 5                   | 5                   |        6 |            6 |            6 |
 |   61 | resurgery                              | -           | 0                   | 1                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
@@ -87,7 +87,7 @@ The preoperative data set contains static medical data at the time before the in
 |   78 | hemoglobin                             | g / dl      | 0                   | 40                  | float64        |   13076 |        9096 |        3980 |          98.87 |              99.03 |              98.51 | 3.3                 | 3.3                 | 4.5                 | 39.9                | 37.0                | 39.9                |      155 |          147 |          130 |
 |   79 | wbc                                    | / nl        | 0                   | 100                 | float64        |   13029 |        9074 |        3955 |          98.52 |              98.79 |              97.9  | 0.09                | 0.11                | 0.09                | 73.18               | 73.18               | 61.08               |     1858 |         1588 |         1311 |
 |   80 | platelets                              | / nl        | 0                   | 16,000,000          | float64        |   13030 |        9075 |        3955 |          98.53 |              98.8  |              97.9  | 3.8                 | 3.8                 | 6.4                 | 1240.0              | 1119.0              | 1240.0              |      717 |          653 |          573 |
-|   81 | hematocrit                             | %           | 0                   | 100                 | float64        |    6593 |        5122 |        1471 |          49.85 |              55.76 |              36.41 | 0.189               | 0.19                | 0.189               | 65.2                | 65.2                | 64.3                |      635 |          601 |          382 |
+|   81 | hematocrit                             | l / l       | 0                   | 1                   | float64        |    6593 |        5122 |        1471 |          49.85 |              55.76 |              36.41 | 0.102               | 0.107               | 0.102               | 0.652               | 0.652               | 0.643               |      441 |          412 |          337 |
 |   82 | inr                                    | -           | 0                   | 10                  | float64        |   12976 |        9032 |        3944 |          98.12 |              98.33 |              97.62 | 0.8                 | 0.8                 | 0.8                 | 8.0                 | 8.0                 | 8.0                 |      185 |          157 |          132 |
 |   83 | aptt                                   | s           | 0                   | 500                 | float64        |   10916 |        7632 |        3284 |          82.54 |              83.09 |              81.29 | 21.0                | 21.0                | 21.0                | 240.0               | 240.0               | 240.0               |      443 |          396 |          314 |
 |   84 | erythrocytes                           | / pl        | 0                   | 10                  | float64        |   13031 |        9076 |        3955 |          98.53 |              98.81 |              97.9  | 0.6                 | 0.6                 | 1.1                 | 7.4                 | 7.4                 | 7.2                 |       61 |           57 |           54 |
@@ -109,7 +109,7 @@ The preoperative data set contains static medical data at the time before the in
 
 The following exclusion criteria were applied to the following data sets:
 
-### Elective _(pre_elective_v1.csv)_
+### Elective
 
 Exclusion Criteria:
 - **meta_urgency:** <= 3
@@ -117,9 +117,9 @@ Exclusion Criteria:
 - **target_90_day_mortality:** not available
 - **Completeness:** < 75 %
 
-Output: 7,712 cases
+Output: 7,711 cases
 
-### Emergency _(pre_emergency_v1.csv)_
+### Emergency
 
 Exclusion Criteria:
 - **meta_urgency:** >= 4
@@ -127,7 +127,7 @@ Exclusion Criteria:
 - **target_90_day_mortality:** not available
 - **Completeness:** < 50 %
 
-Output: 1,294 cases
+Output: 1,286 cases
 
 ## Additional Notes
 

@@ -1,119 +1,112 @@
 # Preoperative Data
 
-The preoperative data set contains static medical data at the time before the index operation. Data is available from two different and independent clinics so that results can be validated externally. The dataset contains 13,225 individual cases, each with a total of 78 features and 11 potential targets.
+The preoperative data set contains static medical data at the time before the index operation. Data is available from two different and independent clinics so that results can be validated externally. The dataset contains 13,225 individual cases, each with a total of 10 meta tags, 79 features and 12 targets.
 
 ## Data Structure
 
-**Type Legend:** 0=numeric, 1=binary / numeric encoded categorial, 2=on-hot encoded categorial
-
-| id   | name                                   | dimension | lower_limit | upper_limit   | type |
-| :--- | :------------------------------------- | :-------- | :---------- | :------------ | :--- |
-|    0 | identifier_cohort                      | -         | 0           | 1             | 1    |
-|    1 | gender                                 | -         | 0           | 1             | 1    |
-|    2 | age                                    | yrs       | 18          | 120           | 0    |
-|    3 | height                                 | cm        | 100         | 250           | 0    |
-|    4 | weight                                 | kg        | 25          | 300           | 0    |
-|    5 | bmi                                    | kg / m^2  | 5           | 100           | 0    |
-|    6 | asa                                    | -         | 0           | 5             | 1    |
-|    7 | ecog                                   | -         | 0           | 5             | 1    |
-|    8 | cci                                    | -         | 0           | 24            | 1    |
-|    9 | myocardial_infarction                  | -         | 0           | 1             | 1    |
-|   10 | congestive_heart_failure               | -         | 0           | 1             | 1    |
-|   11 | peripheral_vascular_disease            | -         | 0           | 1             | 1    |
-|   12 | cerebrovascular_disease                | -         | 0           | 1             | 1    |
-|   13 | dementia                               | -         | 0           | 1             | 1    |
-|   14 | chronic_pulmonary_disease              | -         | 0           | 1             | 1    |
-|   15 | rheumatic_disease                      | -         | 0           | 1             | 1    |
-|   16 | peptic_ulcer_disease                   | -         | 0           | 1             | 1    |
-|   17 | liver_disease_mild                     | -         | 0           | 1             | 1    |
-|   18 | liver_disease_moderate_to_severe       | -         | 0           | 1             | 1    |
-|   19 | diabetes_without_chronic_complications | -         | 0           | 1             | 1    |
-|   20 | diabetes_with_chronic_complications    | -         | 0           | 1             | 1    |
-|   21 | hemiplegia_or_paraplegia               | -         | 0           | 1             | 1    |
-|   22 | renal_disease                          | -         | 0           | 1             | 1    |
-|   23 | malignancy                             | -         | 0           | 1             | 1    |
-|   24 | metastatic_solid_tumor                 | -         | 0           | 1             | 1    |
-|   25 | aids                                   | -         | 0           | 1             | 1    |
-|   26 | cardiac_arythmia                       | -         | 0           | 1             | 1    |
-|   27 | valvular_disease                       | -         | 0           | 1             | 1    |
-|   28 | pulmonary_circulatory_disorder         | -         | 0           | 1             | 1    |
-|   29 | arterial_hypertension                  | -         | 0           | 1             | 1    |
-|   30 | other_neurological_disorders           | -         | 0           | 1             | 1    |
-|   31 | hypothyroidism                         | -         | 0           | 1             | 1    |
-|   32 | coagulopathy                           | -         | 0           | 1             | 1    |
-|   33 | obesity                                | -         | 0           | 1             | 1    |
-|   34 | weight_loss                            | -         | 0           | 1             | 1    |
-|   35 | fluid_and_electrolyte_disorders        | -         | 0           | 1             | 1    |
-|   36 | blood_loss_anemia                      | -         | 0           | 1             | 1    |
-|   37 | deficiency_anemia                      | -         | 0           | 1             | 1    |
-|   38 | alcohol_abuse                          | -         | 0           | 1             | 1    |
-|   39 | drug_abuse                             | -         | 0           | 1             | 1    |
-|   40 | psychoses                              | -         | 0           | 1             | 1    |
-|   41 | depression                             | -         | 0           | 1             | 1    |
-|   42 | coronary_heart_disease                 | -         | 0           | 1             | 1    |
-|   43 | chronic_pancreatitis                   | -         | 0           | 1             | 1    |
-|   44 | ulcerative_colitis                     | -         | 0           | 1             | 1    |
-|   45 | crohns_disease                         | -         | 0           | 1             | 1    |
-|   46 | primary_system                         | -         | -           | -             | 2    |
-|   47 | system_esophagus                       | -         | 0           | 1             | 1    |
-|   48 | system_stomach                         | -         | 0           | 1             | 1    |
-|   49 | system_intestine                       | -         | 0           | 1             | 1    |
-|   50 | system_liver                           | -         | 0           | 1             | 1    |
-|   51 | system_pancreas                        | -         | 0           | 1             | 1    |
-|   52 | system_count                           | -         | 1           | 5             | 0    |
-|   53 | urgency                                | -         | 0           | 5             | 1    |
-|   54 | resurgery                              | -         | 0           | 1             | 1    |
-|   55 | month                                  | -         | 0           | 11            | 1    |
-|   56 | weekday                                | -         | 0           | 6             | 1    |
-|   57 | daytime                                | -         | 0           | 2             | 1    |
-|   58 | hour                                   | -         | 0           | 23            | 1    |
-|   59 | mean_monthly_temperature               | °C        | -50         | 50            | 0    |
-|   60 | minimum_monthly_temperature            | °C        | -50         | 50            | 0    |
-|   61 | maximum_monthly_temperature            | °C        | -50         | 50            | 0    |
-|   62 | monthly_precipitation                  | l / m^2   | 0           | 500           | 0    |
-|   63 | monthly_sunshine_hours                 | h         | 0           | 744           | 0    |
-|   64 | sodium                                 | mmol / l  | 50          | 200           | 0    |
-|   65 | potassium                              | mmol / l  | 1           | 10            | 0    |
-|   66 | bilirubin                              | mg / dl   | 0           | 50            | 0    |
-|   67 | urea                                   | mg / dl   | 0           | 400           | 0    |
-|   68 | ggt                                    | U / l     | 0           | 100,000       | 0    |
-|   69 | lipase                                 | U / l     | 0           | 50,000        | 0    |
-|   70 | crp                                    | mg / l    | 0           | 1,000         | 0    |
-|   71 | hemoglobin                             | g / dl    | 0           | 40            | 0    |
-|   72 | wbc                                    | / nl      | 0           | 100           | 0    |
-|   73 | platelets                              | / nl      | 0           | 16,000,000    | 0    |
-|   74 | hematocrit                             | l / l     | 0           | 1             | 0    |
-|   75 | inr                                    | -         | 0           | 10            | 0    |
-|   76 | aptt                                   | s         | 0           | 500           | 0    |
-|   77 | erythrocytes                           | / pl      | 0           | 10            | 0    |
-|   78 | creatinine                             | mg / dl   | 0           | 100           | 0    |
-|   79 | glucose                                | mg / dl   | 0           | 1,000         | 0    |
-|   80 | target_30_day_mortality                | -         | 0           | 1             | 1    |
-|   81 | target_90_day_mortality                | -         | 0           | 1             | 1    |
-
-## Filtered Data Sets
-
-The following exclusion criteria were applied to the following data sets:
-
-### Elective
-
-Exclusion Criteria:
-- **meta_urgency:** <= 3
-- **target_30_day_mortality:** not available
-- **target_90_day_mortality:** not available
-- **Completeness:** < 75 %
-
-Output: 7,711 cases
-
-### Emergency
-
-Exclusion Criteria:
-- **meta_urgency:** >= 4
-- **target_30_day_mortality:** not available
-- **target_90_day_mortality:** not available
-- **Completeness:** < 50 %
-
-Output: 1,286 cases
+|   id | name                                   | type           |   count |   count (0) |   count (1) |   completeness |   completeness (0) |   completeness (1) | min                 | min (0)             | min (1)             | max                 | max (0)             | max (1)             |   unique |   unique (0) |   unique (1) |
+|-----:|:---------------------------------------|:---------------|--------:|------------:|------------:|---------------:|-------------------:|-------------------:|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|---------:|-------------:|-------------:|
+|    0 | meta_cohort                            | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0.0                 | 0.0                 | 1.0                 | 1.0                 | 0.0                 | 1.0                 |        2 |            1 |            1 |
+|    1 | meta_case                              | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | 302070451.0         | 302070451.0         | 307936727.0         | 381008918.0         | 381008918.0         | 316147162.0         |    13225 |         9185 |         4040 |
+|    2 | meta_patient                           | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | 1000678.0           | 1002903.0           | 1000678.0           | 82731116.0          | 82731116.0          | 81041636.0          |    11243 |         8163 |         3123 |
+|    3 | meta_incision                          | datetime64[ns] |   13225 |        9185 |        4040 |         100    |             100    |             100    | 2014-01-02 08:38:00 | 2014-01-02 08:38:00 | 2014-01-13 08:30:00 | 2022-12-30 09:00:00 | 2022-12-29 08:57:00 | 2022-12-30 09:00:00 |    13052 |         9095 |         4033 |
+|    4 | meta_suture                            | datetime64[ns] |   13225 |        9185 |        4040 |         100    |             100    |             100    | 2014-01-02 13:58:00 | 2014-01-02 13:58:00 | 2014-01-13 11:10:00 | 2022-12-30 11:51:00 | 2022-12-29 15:41:00 | 2022-12-30 11:51:00 |    13177 |         9155 |         4039 |
+|    5 | meta_year                              | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 8                   | 8                   | 8                   |        9 |            9 |            9 |
+|    6 | meta_system                            | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 4                   | 4                   | 4                   |        5 |            5 |            5 |
+|    7 | meta_age                               | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | 18.0                | 18.0                | 18.0                | 218.0               | 218.0               | 122.0               |       84 |           80 |           83 |
+|    8 | meta_urgency                           | Int64          |   13048 |        9009 |        4039 |          98.66 |              98.08 |              99.98 | 0                   | 0                   | 0                   | 5                   | 5                   | 5                   |        6 |            6 |            6 |
+|    9 | meta_resurgery                         | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   10 | gender                                 | Int64          |   12573 |        8533 |        4040 |          95.07 |              92.9  |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   11 | age                                    | float64        |   13221 |        9183 |        4038 |          99.97 |              99.98 |              99.95 | 18.0                | 18.0                | 18.0                | 98.0                | 97.0                | 98.0                |       81 |           78 |           81 |
+|   12 | height                                 | float64        |   10469 |        7397 |        3072 |          79.16 |              80.53 |              76.04 | 117.0               | 131.0               | 117.0               | 250.0               | 250.0               | 204.0               |       82 |           78 |           59 |
+|   13 | weight                                 | float64        |   10496 |        7421 |        3075 |          79.36 |              80.79 |              76.11 | 30.0                | 30.0                | 30.0                | 230.0               | 230.0               | 216.0               |      231 |          216 |          121 |
+|   14 | bmi                                    | float64        |   10468 |        7399 |        3069 |          79.15 |              80.56 |              75.97 | 10.4                | 10.4                | 10.6                | 69.7                | 69.7                | 68.2                |      485 |          474 |          282 |
+|   15 | asa                                    | Int64          |   10785 |        7697 |        3088 |          81.55 |              83.8  |              76.44 | 0                   | 0                   | 0                   | 4                   | 4                   | 4                   |        5 |            5 |            5 |
+|   16 | ecog                                   | Int64          |    8533 |        5696 |        2837 |          64.52 |              62.01 |              70.22 | 0                   | 0                   | 0                   | 2                   | 2                   | 2                   |        3 |            3 |            3 |
+|   17 | cci                                    | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 17                  | 17                  | 16                  |       18 |           18 |           17 |
+|   18 | myocardial_infarction                  | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   19 | congestive_heart_failure               | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   20 | peripheral_vascular_disease            | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   21 | cerebrovascular_disease                | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   22 | dementia                               | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   23 | chronic_pulmonary_disease              | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   24 | rheumatic_disease                      | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   25 | peptic_ulcer_disease                   | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   26 | liver_disease_mild                     | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   27 | liver_disease_moderate_to_severe       | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   28 | diabetes_without_chronic_complications | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   29 | diabetes_with_chronic_complications    | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   30 | hemiplegia_or_paraplegia               | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   31 | renal_disease                          | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   32 | malignancy                             | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   33 | metastatic_solid_tumor                 | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   34 | aids                                   | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   35 | cardiac_arythmia                       | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   36 | valvular_disease                       | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   37 | pulmonary_circulatory_disorder         | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   38 | arterial_hypertension                  | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   39 | other_neurological_disorders           | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   40 | hypothyroidism                         | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   41 | coagulopathy                           | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   42 | obesity                                | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   43 | weight_loss                            | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   44 | fluid_and_electrolyte_disorders        | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   45 | blood_loss_anemia                      | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   46 | deficiency_anemia                      | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   47 | alcohol_abuse                          | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   48 | drug_abuse                             | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   49 | psychoses                              | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   50 | depression                             | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   51 | coronary_heart_disease                 | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   52 | chronic_pancreatitis                   | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   53 | ulcerative_colitis                     | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   54 | crohns_disease                         | Int64          |   12181 |        9026 |        3155 |          92.11 |              98.27 |              78.09 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   55 | primary_system                         | object         |   13225 |        9185 |        4040 |         100    |             100    |             100    | esophagus           | esophagus           | esophagus           | stomach             | stomach             | stomach             |        5 |            5 |            5 |
+|   56 | system_esophagus                       | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   57 | system_stomach                         | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   58 | system_intestine                       | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   59 | system_liver                           | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   60 | system_pancreas                        | Int64          |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   61 | system_count                           | float64        |   10534 |        6645 |        3889 |          79.65 |              72.35 |              96.26 | 1.0                 | 1.0                 | 1.0                 | 4.0                 | 4.0                 | 3.0                 |        4 |            4 |            3 |
+|   62 | urgency                                | Int64          |   13048 |        9009 |        4039 |          98.66 |              98.08 |              99.98 | 0                   | 0                   | 0                   | 5                   | 5                   | 5                   |        6 |            6 |            6 |
+|   63 | resurgery                              | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   64 | month                                  | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 11                  | 11                  | 11                  |       12 |           12 |           12 |
+|   65 | weekday                                | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 6                   | 6                   | 6                   |        7 |            7 |            7 |
+|   66 | daytime                                | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 2                   | 2                   | 2                   |        3 |            3 |            3 |
+|   67 | hour                                   | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 23                  | 23                  | 23                  |       24 |           24 |           24 |
+|   68 | mean_monthly_temperature               | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | -0.8                | -0.8                | -0.8                | 22.8                | 22.8                | 22.8                |       87 |           87 |           87 |
+|   69 | minimum_monthly_temperature            | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | -13.7               | -13.7               | -13.7               | 14.0                | 14.0                | 14.0                |       87 |           87 |           87 |
+|   70 | maximum_monthly_temperature            | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | 6.7                 | 6.7                 | 6.7                 | 38.5                | 38.5                | 38.5                |       94 |           94 |           94 |
+|   71 | monthly_precipitation                  | float64        |   13225 |        9185 |        4040 |         100    |             100    |             100    | 1.3                 | 1.3                 | 1.3                 | 193.4               | 193.4               | 193.4               |       97 |           97 |           97 |
+|   72 | monthly_sunshine_hours                 | float64        |   12967 |        9007 |        3960 |          98.05 |              98.06 |              98.02 | 14.1                | 14.1                | 14.1                | 340.4               | 340.4               | 340.4               |      103 |          103 |          103 |
+|   73 | sodium                                 | float64        |   12742 |        8772 |        3970 |          96.35 |              95.5  |              98.27 | 102.0               | 102.0               | 120.0               | 169.0               | 169.0               | 158.0               |       43 |           41 |           37 |
+|   74 | potassium                              | float64        |   13024 |        9052 |        3972 |          98.48 |              98.55 |              98.32 | 1.4                 | 1.4                 | 1.6                 | 8.4                 | 8.4                 | 8.2                 |       57 |           53 |           44 |
+|   75 | bilirubin                              | float64        |    8224 |        7079 |        1145 |          62.19 |              77.07 |              28.34 | 0.0                 | 0.0                 | 0.0                 | 27.2                | 27.2                | 26.1                |      522 |          503 |          139 |
+|   76 | urea                                   | float64        |    9503 |        6981 |        2522 |          71.86 |              76    |              62.43 | 3.0                 | 3.0                 | 4.0                 | 335.0               | 252.0               | 335.0               |      201 |          184 |          161 |
+|   77 | ggt                                    | float64        |    9880 |        7157 |        2723 |          74.71 |              77.92 |              67.4  | 3.0                 | 3.0                 | 5.0                 | 4679.0              | 4679.0              | 2948.0              |      856 |          786 |          428 |
+|   78 | lipase                                 | float64        |    8755 |        6645 |        2110 |          66.2  |              72.35 |              52.23 | 3.0                 | 3.0                 | 4.0                 | 5790.0              | 4781.0              | 5790.0              |      376 |          348 |          196 |
+|   79 | crp                                    | float64        |    8715 |        6457 |        2258 |          65.9  |              70.3  |              55.89 | 0.3                 | 0.3                 | 0.3                 | 661.4               | 661.4               | 658.6               |     1762 |         1337 |         1003 |
+|   80 | hemoglobin                             | float64        |   13076 |        9096 |        3980 |          98.87 |              99.03 |              98.51 | 3.3                 | 3.3                 | 4.5                 | 39.9                | 37.0                | 39.9                |      155 |          147 |          130 |
+|   81 | wbc                                    | float64        |   13029 |        9074 |        3955 |          98.52 |              98.79 |              97.9  | 0.09                | 0.11                | 0.09                | 73.18               | 73.18               | 61.08               |     1858 |         1588 |         1311 |
+|   82 | platelets                              | float64        |   13030 |        9075 |        3955 |          98.53 |              98.8  |              97.9  | 3.8                 | 3.8                 | 6.4                 | 1240.0              | 1119.0              | 1240.0              |      717 |          653 |          573 |
+|   83 | hematocrit                             | float64        |    6593 |        5122 |        1471 |          49.85 |              55.76 |              36.41 | 0.102               | 0.107               | 0.102               | 0.652               | 0.652               | 0.643               |      441 |          412 |          337 |
+|   84 | inr                                    | float64        |   12976 |        9032 |        3944 |          98.12 |              98.33 |              97.62 | 0.8                 | 0.8                 | 0.8                 | 8.0                 | 8.0                 | 8.0                 |      185 |          157 |          132 |
+|   85 | aptt                                   | float64        |   10916 |        7632 |        3284 |          82.54 |              83.09 |              81.29 | 21.0                | 21.0                | 21.0                | 240.0               | 240.0               | 240.0               |      443 |          396 |          314 |
+|   86 | erythrocytes                           | float64        |   13031 |        9076 |        3955 |          98.53 |              98.81 |              97.9  | 0.6                 | 0.6                 | 1.1                 | 7.4                 | 7.4                 | 7.2                 |       61 |           57 |           54 |
+|   87 | creatinine                             | float64        |    9834 |        8505 |        1329 |          74.36 |              92.6  |              32.9  | 0.12                | 0.12                | 0.25                | 16.5                | 16.5                | 11.87               |      418 |          392 |          202 |
+|   88 | glucose                                | float64        |    7152 |        5269 |        1883 |          54.08 |              57.37 |              46.61 | 1.0                 | 1.0                 | 38.0                | 752.0               | 722.0               | 752.0               |      309 |          286 |          218 |
+|   89 | target_30_day_mortality                | Int64          |   10941 |        7541 |        3400 |          82.73 |              82.1  |              84.16 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   90 | target_90_day_mortality                | Int64          |    9879 |        6760 |        3119 |          74.7  |              73.6  |              77.2  | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   91 | target_deceased_after_discharge        | Int64          |   12525 |        8758 |        3767 |          94.71 |              95.35 |              93.24 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   92 | target_clavien_dindo_5                 | Int64          |   13225 |        9185 |        4040 |         100    |             100    |             100    | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   93 | target_acute_myocardial_infarction     | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   94 | target_pulmonary_embolism              | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   95 | target_septic_shock                    | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   96 | target_pneumonia                       | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   97 | target_liver_failure                   | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   98 | target_cardiogenic_shock               | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|   99 | target_acute_pancreatitis              | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
+|  100 | target_acute_respiratory_failure       | Int64          |   12245 |        9052 |        3193 |          92.59 |              98.55 |              79.03 | 0                   | 0                   | 0                   | 1                   | 1                   | 1                   |        2 |            2 |            2 |
 
 ## Additional Notes
 

@@ -119,3 +119,31 @@ The preoperative data set contains static medical data at the time before the in
 - **0:** Night _(10pm <= t < 6am)_
 - **1:** Morning _(6am <= t < 2pm)_
 - **2:** Afternoon _(2pm <= t < 10pm)_
+
+## Subsets
+
+### Emergency
+
+**Inclusion Criteria**
+
+- meta_urgency <= 3
+- target_30_day_mortality available
+- target_90_day_mortality available
+- Completeness >= 50 %
+- **Total:** 1,286 cases
+
+**Endpoints**
+
+- target_90_day_mortality: 27,1 % positive class share
+- target_30_day_mortality: 21,8 % positive class share
+
+**Results**
+
+- target_90_day_mortality: 0.81 AUROC, 0.63 AUPRC
+- target_30_day_mortality: 0.83 AUROC, 0.62 AUPRC
+- **Classifier:** XGBClassifier
+
+**SHAP**
+
+- target_30_day_mortality: age, inr, aptt, ggt, platelets, arterial_hypertension, urea, wbc, cci, glucose
+- target_90_day_mortality: age, cci, platelets, ggt, aptt, glucose, arterial_hypertension, 

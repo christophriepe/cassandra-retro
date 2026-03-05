@@ -1,6 +1,6 @@
 # CASSANDRA Retro
 
-CASSANDRA Retro is a comprehensive retrospective dataset covering the complete perioperative course of surgical patients. It comprises four components — preoperative, intraoperative, postoperative, and laboratory — spanning 9,466 patients across clinical settings, with a total of 51,967,074 data points.
+CASSANDRA Retro is a comprehensive retrospective dataset covering the complete perioperative course of visceral surgical patients. It comprises four components — preoperative, intraoperative, postoperative, and laboratory — spanning 13,225 patients across clinical settings, with a total of 51,967,074 data points.
 
 ## Contact
 

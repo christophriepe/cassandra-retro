@@ -4,7 +4,7 @@ The laboratory dataset consists of 6,145,072 data points across 95 different lab
 
 ## Types
 
-An overview of the different laboratory values represented in the data set together with important key figures.
+An overview of all laboratory values represented in the dataset along with their key figures.
 
 | ID   | Name      | Description                               | Dimension | N       |
 | :--- | :-------- | :---------------------------------------- | :-------- | :------ |

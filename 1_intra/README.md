@@ -1,13 +1,13 @@
 # Intraoperative Data
 
-The intraoperative data set, which accurately represents the condition of patients during surgery across a variety of different variables. The dataset consists of a total of 12,476,917 data points.
+The intraoperative dataset accurately represents the condition of patients during surgery across a variety of variables. It consists of a total of 12,476,917 data points.
 
 ## Types
 
 All types represented in the intraoperative dataset with the corresponding number of recorded events.
 
 | ID   | Name         | Description                                  | N     |
-| :--- | :----------- | :------------------------------------------  | :-------- |
+| :--- | :----------- | :------------------------------------------- | :-------- |
 | 0    | abg_abe      | Arterial Blood Gas (ABG): Actual Base Excess | 200,298   |
 | 1    | abg_ca       | ABG: Calcium                                 | 211,676   |
 | 2    | abg_cl       | ABG: Chloride                                | 190,786   |

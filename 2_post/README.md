@@ -1,6 +1,6 @@
 # Postoperative Data
 
-The postoperative data set, which accurately represents the condition of ICU patients across 38 different clinical variables. The dataset consists of a total of 32,320,093 data points. Since the IT system of the Charité has been changed in 2020, the postoperative data set originates from two different sources, COPRA 5 until 2020 and COPRA 6 from 2020 on. Not all clinical variables are available in both exports.
+The postoperative dataset accurately represents the condition of ICU patients across 38 different clinical variables. It consists of a total of 32,320,093 data points. Since the IT system of the Charité changed in 2020, the postoperative data originates from two different sources: COPRA 5 until 2020 and COPRA 6 from 2020 onward. Not all clinical variables are available in both exports.
 
 ## Types
 
